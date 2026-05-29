@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e93b1356-50b1-480e-8b2a-57b7e7375e68",
+            "actions": [
+                {
+                    "name": "Prueba",
+                    "type": "Button",
+                    "id": "4524e749-4bf6-40c6-8b4e-b4c8d4e33f97",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0d3b31ea-b36a-42a5-a117-830c82366532",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Prueba",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

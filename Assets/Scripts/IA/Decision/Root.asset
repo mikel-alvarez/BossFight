@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50d8be69f1fa44489cebb292b784faa, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.Selector
+  children:
+  - {fileID: 11400000, guid: c6725db97098f654695c5fd85220b444, type: 2}
+  - {fileID: 11400000, guid: 3134d53209e335d4f852d44b4a3eda61, type: 2}
+  - {fileID: 11400000, guid: bbbe823f023cc5a4a83c4a86b699efd8, type: 2}
