@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c90221d3e81f284ca2935f144f90353, type: 3}
   m_Name: SequenceFase1
   m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.Sequence
+  blackBoard: {fileID: 0}
   children:
-  - {fileID: 11400000, guid: cdc9a53ebe2cb54498aa1d168fd79f0d, type: 2}
+  - {fileID: 11400000, guid: ea611e549b0278a4caebc3475496f777, type: 2}
   - {fileID: 11400000, guid: 4341454a22252d54d9cd518c67f1549e, type: 2}

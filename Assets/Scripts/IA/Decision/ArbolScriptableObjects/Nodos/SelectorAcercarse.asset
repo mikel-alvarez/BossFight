@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50d8be69f1fa44489cebb292b784faa, type: 3}
   m_Name: SelectorAcercarse
   m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.Selector
+  blackBoard: {fileID: 0}
   children:
-  - {fileID: 11400000, guid: 693873dd41120174385455465c58acca, type: 2}
+  - {fileID: 11400000, guid: 943823d35b0cea64eb1e6f15ebe46f75, type: 2}
   - {fileID: 11400000, guid: 130f41d693c550b40a5bd931cad66956, type: 2}

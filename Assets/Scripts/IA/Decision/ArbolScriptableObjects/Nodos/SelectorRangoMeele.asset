@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50d8be69f1fa44489cebb292b784faa, type: 3}
   m_Name: SelectorRangoMeele
   m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.Selector
+  blackBoard: {fileID: 0}
   children:
   - {fileID: 11400000, guid: a454a4c41faf4f34bb551b6a95f2884f, type: 2}
-  - {fileID: 11400000, guid: 57a09adab60f5cd4297c452756088baf, type: 2}
+  - {fileID: 11400000, guid: 5ebed6cf62e036e4db2a6884171b6290, type: 2}

@@ -5,8 +5,6 @@ namespace IA.BlackBoard
 {
     public class BlackBoard : MonoBehaviour
     {
-        public static BlackBoard Instance { get; private set; }
-
 
         public struct BlackBoardData
         {
@@ -27,14 +25,6 @@ namespace IA.BlackBoard
         private void Awake()
         {
             estradas = new List<BlackBoardData>();
-            if (Instance == null)
-            {
-                Instance = this;
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
         }
 
         public T GetDataByKey<T>(string clave)

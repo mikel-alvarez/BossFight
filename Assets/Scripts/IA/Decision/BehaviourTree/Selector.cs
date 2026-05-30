@@ -20,5 +20,14 @@ namespace IA.Decision.BehaviourTree
             }
             return false;
         }
+
+        public override void SetBlackBoard(BlackBoard.BlackBoard blackBoard)
+        {
+            base.SetBlackBoard(blackBoard);
+            foreach (Task child in children)
+            {
+                child.SetBlackBoard(blackBoard);
+            }
+        }
     }
 }
