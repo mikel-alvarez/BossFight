@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50d8be69f1fa44489cebb292b784faa, type: 3}
   m_Name: SelectorFase2Melee
   m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.Selector
+  blackBoard: {fileID: 0}
   children:
   - {fileID: 11400000, guid: 02bcfcd55dfc6e14bbd2f3c6ee49a0ad, type: 2}
-  - {fileID: 11400000, guid: dab32f95be2d0f743822f6460903b4e4, type: 2}
+  - {fileID: 11400000, guid: 63c9fe4051b21bb4cbd1bc1c9a487cd5, type: 2}

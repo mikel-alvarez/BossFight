@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09cffb832cb2c5c4280c14186847d08c, type: 3}
   m_Name: NonDeterministicSelectorDistanciaMelee
   m_EditorClassIdentifier: Assembly-CSharp::IA.Decision.BehaviourTree.NonDeterministicSelector
+  blackBoard: {fileID: 0}
   children:
   - {fileID: 11400000, guid: d9b744360334883428caae68dc6b6b15, type: 2}
-  - {fileID: 11400000, guid: 719da35b6dc7a244fa5728ccceec6b13, type: 2}
+  - {fileID: 11400000, guid: a63b5e8143202f94da92d1de53191b22, type: 2}
